@@ -1,5 +1,7 @@
-streamlit==1.35.0
-supabase==2.5.0
-pandas==2.2.2
-plotly==5.22.0
-openpyxl==3.1.4
+cat > requirements.txt << 'EOF'
+streamlit>=1.35.0
+supabase>=2.5.0
+pandas>=2.2.0
+plotly>=5.22.0
+openpyxl>=3.1.0
+EOF
