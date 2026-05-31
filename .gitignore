@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Credenciais — NUNCA vai pro Git
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Dados e planilhas (migração local apenas)
+*.xlsx
+*.csv
+*.bak
+dados_locais/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
